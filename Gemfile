@@ -13,8 +13,8 @@ gem 'bootstrap-sass',             '3.4.1'
 ## ##gem 'puma',                       '3.12.2'  #
 gem "puma", ">= 3.12.4"
 
-gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
-## ##gem 'sass-rails', '~> 6.0'
+## ## ##gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
+gem 'sass-rails', '~> 6.0'
 ## ##gem 'sass-rails', '5.1.0' ##'>= 6'  #gem 'sass-rails',                 
 gem 'webpacker',                  '4.0.7'
 gem 'turbolinks',                 '5.2.0'
