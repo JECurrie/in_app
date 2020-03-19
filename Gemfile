@@ -24,7 +24,7 @@ group :development, :test do
 end
 
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
-#gem 'win32console', '~> 1.3', '>= 1.3.2'
+gem 'win32console', '~> 1.3', '>= 1.3.2'
 
 group :development do
   gem 'web-console',           '4.0.1'
