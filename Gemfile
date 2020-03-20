@@ -10,12 +10,8 @@ gem 'faker',                      '2.1.2'
 gem 'will_paginate',              '3.1.8'
 gem 'bootstrap-will_paginate',    '1.0.0'
 gem 'bootstrap-sass',             '3.4.1'
-## ##gem 'puma',                       '3.12.2'  #
-gem "puma", ">= 3.12.4"
-
-## ## ##gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
-gem 'sass-rails', '~> 6.0'
-## ##gem 'sass-rails', '5.1.0' ##'>= 6'  #gem 'sass-rails',                 
+gem 'puma',                       '3.12.2'
+gem 'sass-rails',                 '5.1.0'
 gem 'webpacker',                  '4.0.7'
 gem 'turbolinks',                 '5.2.0'
 gem 'jbuilder',                   '2.9.1'
@@ -25,9 +21,6 @@ group :development, :test do
   gem 'sqlite3', '1.4.1'
   gem 'byebug',  '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
 end
-
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
-gem 'win32console', '~> 1.3', '>= 1.3.2'
 
 group :development do
   gem 'web-console',           '4.0.1'
